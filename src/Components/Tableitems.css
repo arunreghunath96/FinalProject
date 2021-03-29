@@ -1,0 +1,23 @@
+td{
+    text-align: start;
+   
+}
+
+/* .avatar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+.idmargin{
+   
+    padding-left: 20px;
+}
+/* .dot{
+    margin-left: 20px;
+} */
+.rows{
+    border-top: 0.2px solid #f6f6f6;
+}
+.datecolor{
+    color:#6e6d84;
+}
