@@ -1,0 +1,24 @@
+.top{
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+}
+.profile{
+    display: flex;
+}
+.profile p{
+    margin-top: 5px;
+    margin-left: 10px;
+}
+.icon{
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 5px;
+    
+}
+.icon.arrow{
+    font-size: 10px;
+}
+.top-sub{
+margin-top: 30px;
+}
