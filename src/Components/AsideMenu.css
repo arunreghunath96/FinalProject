@@ -1,0 +1,41 @@
+.asideMenuBar {
+    width: 15%;
+    height: 100vh;
+    background-color: #1d1d42;
+    color: white;
+}
+.asideHeader {
+    padding: 30px 5px 20px 5px;
+}
+.asideHeader h4 {
+    padding: 0 70px 0 28px;
+}
+.asideHeader h4 .orange {
+    color: #f38d15;
+}
+.asideHeader .menuIcon {
+    font-size: 15px;
+}
+.asideMenuBar ul {
+    padding-left: 20px;
+}
+.asideMenuBar ul li {
+    list-style: none;
+    margin-bottom: 10px;
+}
+.asideMenuBar ul li .insideIconBox {
+    padding-right: 6px;
+}
+.asideMenuBar ul li .insideTextBox {
+    width: 80%;
+    color: #b6b6c2;
+    padding-left: 6px;
+}
+.asideMenuBar ul li .insideTextBox h7 {
+    font-size: 10px;
+    
+}
+.asideMenuBar ul li .listIcon {
+    color: #b6b6c2;
+    font-size: 10px;
+}
