@@ -3,11 +3,9 @@ td{
    
 }
 
-/* .avatar{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-} */
+.avatar{
+  padding-left: 15px;
+}
 .idmargin{
    
     padding-left: 20px;

@@ -1,5 +1,5 @@
 import React from "react";
-import "./Headerstyle.css";
+import "./Header.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -19,19 +19,19 @@ export default function Header() {
           <h2>Tickets</h2>
         </div>
         <div className="profile">
-          <FontAwesomeIcon icon={faBell} className="icon"></FontAwesomeIcon>
-          <FontAwesomeIcon icon={faEnvelope} className="icon"></FontAwesomeIcon>
+          <FontAwesomeIcon icon={faBell} className="icon-header"></FontAwesomeIcon>
+          <FontAwesomeIcon icon={faEnvelope} className="icon-header"></FontAwesomeIcon>
           <Avatar alt="Remy Sharp" src="/static/images/avatar/1.jpg" />
           <p>Kevin Harry</p>
         </div>
       </div>
 
       <p className="top-sub">
-        Home{" "}
+        <span>Home</span>
         <FontAwesomeIcon
           icon={faChevronRight}
           className="icon arrow "
-        ></FontAwesomeIcon>{" "}
+        ></FontAwesomeIcon>
         Tickets
       </p>
     </div>

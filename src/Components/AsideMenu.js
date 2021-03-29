@@ -10,7 +10,7 @@ function AsideMenu() {
                 <h4>Admin<span className="orange">.</span></h4>
                 <FontAwesomeIcon className="menuIcon" icon={faBars}></FontAwesomeIcon>
             </div>
-            <ul>
+             <ul>
                 <li className="d-flex align-items-center">
                 <div className="insideIconBox d-flex align-items-center"><FontAwesomeIcon className="listIcon" icon={faTh}></FontAwesomeIcon></div>
                 <div className="insideTextBox d-flex align-items-center"><h7>Dashboard</h7></div>
@@ -21,7 +21,7 @@ function AsideMenu() {
                 </li>
                 <li className="d-flex align-items-center">
                 <div className="insideIconBox"><FontAwesomeIcon className="listIcon" icon={faEnvelope}></FontAwesomeIcon></div>
-                <div className="insideTextBox d-flex align-items-center"><h7>Email</h7></div>
+                <div className="insideTextBox d-flex align-items-center"><h6>Email</h6></div>
                 </li>
                 <li className="d-flex align-items-center">
                 <div className="insideIconBox"><FontAwesomeIcon className="listIcon" icon={faCalendarAlt}></FontAwesomeIcon></div>
@@ -52,6 +52,8 @@ function AsideMenu() {
                 <div className="insideTextBox d-flex align-items-center"><h7>Settings</h7></div>
                 </li>
             </ul>
+             
+          
             
         </div>
     )

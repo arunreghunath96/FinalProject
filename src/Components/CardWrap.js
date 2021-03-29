@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faToggleOff, faTrash, faShoppingBag, faHourglassStart } from '@fortawesome/free-solid-svg-icons';
 import './CardWrap.css'
 
-function cardWrap() {
+function CardWrap() {
     return (
         <div className="cardWrap d-flex justify-content-around">
             <Card icon={<FontAwesomeIcon icon={faToggleOff}/>} ticketNo={83457} cardType={"Total Tickets"} colorVarient={"blue"}/>
@@ -16,4 +16,4 @@ function cardWrap() {
     )
 }
 
-export default cardWrap
+export default CardWrap
