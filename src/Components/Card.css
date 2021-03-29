@@ -1,0 +1,36 @@
+.cardStyle {
+    padding: 20px;
+    width: 24%;
+    background-color: white;
+    margin: 20px;
+}
+.cardIcon {
+    width: 70px;
+    height: 70px;
+    color: green;
+    font-size: 30px;
+    border-radius: 50%;
+    
+}
+.card-text {
+    padding-left: 10px;
+}
+.card-text h4, .card-text p {
+    margin: 0;
+}
+.blue-card {
+    background-color: #eaf1ff;
+    color: 2d74ff;
+}
+.orange-card {
+    background-color: #fef4e8;
+    color: #f3921e;
+}
+ .green-card {
+    background-color: #e8f9ee;
+    color: #14c25a;
+ }
+  .red-card {
+    background-color: #fdeaee;
+    color: #e63152;
+}
